@@ -14,10 +14,10 @@
         <fieldset>
             <label for="service">Service:</label>
             <select id="service" name="service-name">
-                <option>Administration</option>
-                <option>Commercial</option>
-                <option>Emballage</option>
-                <option>Fabrication</option>
+                <option value="s01">Administration</option>
+                <option value="s02">Commercial</option>
+                <option value="s03">Emballage</option>
+                <option value="s04">Fabrication</option>
             </select>
             <li class="button">
                 <button type="submit">Selectionner</button>
