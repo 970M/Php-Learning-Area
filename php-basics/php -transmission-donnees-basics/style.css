@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio&family=Lato&family=Source+Code+Pro&display=swap");
+
+/*
+font-family: 'Gelasio', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Source Code Pro', monospace;
+*/
+
+* {
+    /*border: dotted 1px var(--tknnlt_red);*/
+    box-sizing: border-box;
+    /*padding: 0px;*/
+    /*margin: 0px;*/
+}
+
+body {
+    background-color: var(--tknnlt_edi_bg);
+    font-family: "Gelasio", serif;
+    color: var(--tknnlt_blue1);
+}
+
+/* ------------------------------------------------------------------------ */
+:root {
+    /* 970M theme */
+    --gyom-bleu1: #324680;
+    --gyom-blue2: #3a71b2;
+    --gyom-blue3: #5888a2;
+    --gyom-red: #ff1700;
+    --gyom-orange1: #ff6500;
+    --gyom-orange2: #ffba0b;
+    --gyom-pink: #ff7683;
+    --gyom-gold: #ffba60;
+    --gyom-brown: #ffdaa0;
+
+    /* Gruvbox Dark */
+    --grvbdk-bg: #282828;
+    --grvbdk-fg: #ebdbb2;
+    --grvbdk-bg0_h: #1d2021;
+    --grvbdk-bg0_s: #32302f;
+    --grvbdk-bg0: #282828;
+    --grvbdk-bg1: #3c3836;
+    --grvbdk-bg2: #504945;
+    --grvbdk-bg3: #665c54;
+    --grvbdk-bg4: #7c6f64;
+    --grvbdk-fg0: #fbf1c7;
+    --grvbdk-fg1: #ebdbb2;
+    --grvbdk-fg2: #d5c4a1;
+    --grvbdk-fg3: #bdae93;
+    --grvbdk-fg4: #a89984;
+    --grvbdk-orange_l: #d65d0e;
+    --grvbdk-orange_d: #fe8019;
+    --grvbdk-red_l: #cc241d;
+    --grvbdk-red_d: #fb4934;
+    --grvbdk-green_l: #98971a;
+    --grvbdk-green_d: #b8bb26;
+    --grvbdk-yellow_l: #d79921;
+    --grvbdk-yellow_d: #fabd2f;
+    --grvbdk-blue_l: #458588;
+    --grvbdk-blue_d: #83a598;
+    --grvbdk-purple_l: #b16286;
+    --grvbdk-purple_d: #d3869b;
+    --grvbdk-aqua_l: #689d6a;
+    --grvbdk-aqua_d: #8ec07c;
+    --grvbdk-gray_l: #a89984;
+    --grvbdk-gray_d: #928374;
+
+    /* Gruvbox Light */
+    --grvblt_bg: #fbf1c7;
+    --grvblt_fg: #3c3836;
+    --grvblt_bg0_h: #f9f5d7;
+    --grvblt_bg0_s: #f2e5bc;
+    --grvblt_bg0: #fbf1c7;
+    --grvblt_bg1: #ebdbb2;
+    --grvblt_bg2: #d5c4a1;
+    --grvblt_bg3: #bdae93;
+    --grvblt_bg4: #a89984;
+    --grvblt_fg0: #282828;
+    --grvblt_fg1: #3c3836;
+    --grvblt_fg2: #504945;
+    --grvblt_fg3: #665c54;
+    --grvblt_fg4: #7c6f64;
+    --grvblt_orange_l: #d65d0e;
+    --grvblt_orange_d: #af3a03;
+    --grvblt_red_l: #cc241d;
+    --grvblt_red_d: #9d0006;
+    --grvblt_green_l: #98971a;
+    --grvblt_green_d: #79740e;
+    --grvblt_yellow_l: #d79921;
+    --grvblt_yellow_d: #b57614;
+    --grvblt_blue_l: #458588;
+    --grvblt_blue_d: #076678;
+    --grvblt_purple_l: #b16286;
+    --grvblt_purple_d: #8f3f71;
+    --grvblt_aqua_l: #689d6a;
+    --grvblt_aqua_d: #427b58;
+    --grvblt_gray_l: #7c6f64;
+    --grvblt_gray_d: #928374;
+
+    /* Tokyo Night */
+    --tkndk_red: #f7768e; /*This keyword, HTML elements, Regex group symbol, CSS units, Terminal Red"*/
+    --tkndk_orange: #ff9e64; /*Number and Boolean constants, Language support constants*/
+    --tkndk_yellow: #e0af68; /*Function parameters, Regex character sets, Terminal Yellow*/
+    --tkndk_green1: #9ece6a; /*Strings, CSS class names*/
+    --tkndk_green2: #73daca; /*Object literal keys, Markdown links, Terminal Green*/
+    --tkndk_acqua1: #b4f9f8; /*Regex literal strings*/
+    --tkndk_acqua2: #2ac3de; /*Language support functions, CSS HTML elements*/
+    --tkndk_blue1: #7dcfff; /*Object properties, Regex quantifiers and flags, Markdown headings, Terminal Cyan, Markdown code, Import/export keywords*/
+    --tkndk_blue2: #7aa2f7; /*Function names, CSS property names, Terminal Blue*/
+    --tkndk_magenta: #bb9af7; /*Control Keywords, Storage Types, Regex symbols and operators, HTML Attributes, Terminal Magenta*/
+    --tkndk_white1: #c0caf5; /*Variables, Class names, Terminal White*/
+    --tkndk_grey1: #a9b1d6; /*Editor Foreground*/
+    --tkndk_grey2: #9aa5ce; /*Markdown Text, HTML Text*/
+    --tkndk_white2: #cfc9c2; /*Parameters inside functions (semantic highlighting only)*/
+    --tkndk_grey3: #565f89; /*Comments*/
+    --tkndk_grey4: #414868; /*Terminal Black*/
+    --tkndk_black1: #24283b; /*Editor Background (Storm)*/
+    --tkndk_black2: #1a1b26; /*Editor Background (Night)*/
+
+    /* Tokyo Night Light */
+    --tknnlt_red: #8c4351; /*This keyword, HTML elements, Regex group symbol, CSS units, Terminal Red*/
+    --tknnltorange1: #965027; /*Number and Boolean constants, Language support constants*/
+    --tknnlt_orange2: #8f5e15; /*Function parameters, Regex character sets, Terminal Yellow*/
+    --tknnlt_green1: #485e30; /*Strings, CSS class names*/
+    --tknnlt_green2: #33635c; /*Object literal keys, Markdown links, Regex literal strings, Terminal Green*/
+    --tknnlt_acqua: #166775; /*Language support functions, CSS HTML elements*/
+    --tknnlt_blue1: #0f4b6e; /*Object properties, Regex quantifiers and flags, Terminal Cyan, Markdown code, Import/export keywords*/
+    --tknnlt_blue2: #34548a; /*Function names, CSS property names, Markdown Headings, Terminal Blue*/
+    --tknnlt_violet: #5a4a78; /*Control Keywords, Storage Types, Regex symbols and operators, HTML Attributes, Terminal Magenta*/
+    --tknnlt_grey1: #343b58; /*Editor Foreground, Variables, Class names, Terminal White*/
+    --tknnlt_grey2: #565a6e; /*Markdown Text, HTML Text*/
+    --tknnlt_brown: #634f30; /*Parameters inside functions (semantic highlighting only)*/
+    --tknnlt_black: #0f0f14; /*Terminal Black*/
+    --tknnlt_grey3: #9699a3; /*Comments*/
+    --tknnlt_edi_bg: #d5d6db; /*Editor Background*/
+}
+
+/*
+@font-face {
+    font-family: "gd-serif";
+    src: url("https://fonts.googleapis.com/css2?family=Gelasio&display=swap");
+}
+
+@font-face {
+    font-family: "gd-sans";
+    src: url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+}
+
+@font-face {
+    font-family: "gd-mono";
+    src: url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+}
+*/

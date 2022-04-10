@@ -1,0 +1,7 @@
+.erreur{ background: red; padding: 5px; }
+.validation{ background: green; padding: 5px; }
+.message{ background: #d9e8fd; padding: 15px; margin: 10px auto; border: 2px solid #6eaafb; }
+.titre{ text-align: center }
+.contenu{font-style: italic; }
+.commentaire{}
+

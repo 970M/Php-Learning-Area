@@ -1,0 +1,1 @@
+<a href="ficheProduit.php?idProduit=1"> Produit 1 </a>
